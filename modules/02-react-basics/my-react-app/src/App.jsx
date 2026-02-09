@@ -1,10 +1,10 @@
 import './App.css'
-import NameForm from './exercises/showInput.jsx'
+import FocusInput from './exercises/focus.jsx'
 
 function App() {
   return (
     <div>
-      <NameForm/>
+      <FocusInput/>
     </div>
   )
 }
