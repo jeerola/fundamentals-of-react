@@ -1,14 +1,7 @@
-import './App.css'
-import useTimer from './exercises/timer';
+import IsLoggedIn from "./exercises/welcomeMessage";
 
 function App() {
-  const currentTime = useTimer();
-  return (
-    <div style={{ textAlign: 'center' }}>
-      <h2>Current Time</h2>
-      {currentTime}
-    </div>
-  );
+  return <IsLoggedIn/>
 }
 
-export default App
+export default App;
