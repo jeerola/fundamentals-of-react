@@ -1,7 +1,7 @@
-import Box from "./exercises/Box";
+import TodoApp from "./exercises/ToDoList";
 
 function App() {
-  return <Box/>
+  return <TodoApp/>
 }
 
 export default App;

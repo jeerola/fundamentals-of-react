@@ -1,0 +1,13 @@
+.item {
+    padding: 10px;
+    margin: 5px auto;
+    background-color: darkolivegreen;
+    border-radius: 5px;
+}
+
+.addTask {
+    padding: 10px;
+    margin: 5px auto;
+    background-color: darkred;
+    border-radius: 5px;
+}
