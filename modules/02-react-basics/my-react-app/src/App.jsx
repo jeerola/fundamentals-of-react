@@ -1,7 +1,7 @@
-import IsLoggedIn from "./exercises/welcomeMessage";
+import Box from "./exercises/Box";
 
 function App() {
-  return <IsLoggedIn/>
+  return <Box/>
 }
 
 export default App;
