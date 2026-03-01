@@ -1,11 +1,9 @@
-import initialContacts from "../data/initialContacts";
-
 import { Link } from "react-router-dom";
 
-function ContactList() {
+function ContactList({ contacts }) {
   return (
     <div>
-      {initialContacts.map((contact) => (
+      {contacts.map((contact) => (
         <div key={contact.id}>
           <Link to={`/contacts/${contact.id}`}>{contact.name}</Link>
           <p>{contact.phone}</p>
